@@ -8,5 +8,6 @@
         public string? Raza { get; set; }
         public string? sexo { get; set; }
         public string? Color { get; set; }
+        public string? Color { get; set; }
     }
 }
