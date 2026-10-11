@@ -4,7 +4,7 @@
     "slug": "miapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/img/pantallacarga.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
@@ -15,10 +15,16 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.junior00.miapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/img/iconoapp.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1b5fc7ea-d597-4a4c-838b-f7c83093ff0e"
+      }
     }
   }
 }
